@@ -94,7 +94,7 @@ jobs:
         run: |
           git clone $WRT_REPO ./wrt/
           cd ./wrt/
-          git checkout 64b75379b9b52ea67b6eaf0713390a20b6fdb714
+          git checkout 5b60c11e57d71c736b43196a203084d36ac3d706
           
           echo "WRT_HASH=$(git log -1 --pretty=format:'%h')" >> $GITHUB_ENV
           # GitHub Action 移除国内下载源
